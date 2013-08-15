@@ -1,0 +1,84 @@
+/*   
+Theme Name: Theme Bleh!
+Theme URI: http://barrymwong.com/aau/2012/fall/web-3
+Description: Description for Bleh!
+Author: Barry Wong
+Author URI: http://barrymwong.com
+*/
+
+h1, h2, h3, h4, h5, h6, body, form, p, blockquote { margin:0 0 10px 0; padding:0; }
+.fl { float:left; }
+.fr { float:right; }
+.tal { text-align:left; }
+.tar { text-align:right; }
+
+.alignright { float:right; margin:0 0 10px 10px; }
+.alignleft { float:left; margin:0 10px 10px 0;  }
+
+body { 
+	background:#f3f3f3 url(images/bg.png) repeat 0 0 fixed; 
+}
+a { color:#464646; }
+body, p { font-family:'Anaheim', sans-serif; }
+
+.aside h2, .aside h3, .aside h4, 
+.posts h2, .posts h3, .posts h4 { font-family:'Sanchez', serif; }
+
+.page { margin:70px 0 20px 0; padding-bottom:20px; }
+.header { text-align:center; }
+.header h1 { font-family: 'Sanchez', serif; text-transform:uppercase; font-size:100px; padding:30px 0; line-height:95px; margin-bottom:0; 
+	background:url(images/star.png) no-repeat 1% 50%, url(images/star.png) no-repeat 99% 50%; 
+}
+.header h1 a { text-decoration:none; color:#000; text-shadow:2px 2px 5px #fff;}
+.header h2 { margin-bottom:0; font-size:14px; }
+.tagline { border-top:10px solid #000; border-bottom:5px solid #000; font-size:14px; padding:10px 0; font-weight:bold; }
+
+.aside h2 { font-size:18px; text-transform:uppercase; }
+.aside { margin-top:20px; }
+.aside ul, aside li { margin:0; padding:0; text-align:left; display:block; }
+.aside aside > ul { padding-bottom:20px; margin-bottom:20px; border-bottom:2px solid #000; }
+.aside aside > ul ul ul { margin-left:20px; }
+
+blockquote { padding-left:20px; margin-left:20px; border-left:5px solid #ccc; font-style:italic; }
+
+ul, li { list-style-type:none; }
+.nav {  margin:0; position:fixed; top:0; left:0; width:100%; background:url('images/triangle.png') repeat-x 0 bottom; padding-bottom:7px; border-top:5px solid #ccc; }
+.nav ul { margin:0; padding:0; text-align:center; background-color:#000; }
+.nav ul > li > a,
+.nav ul > li { display:inline-block; }
+.nav ul > li > ul { display:none; }
+.nav ul > li > a { color:#fff; padding:20px; font-size:20px; text-decoration:none; }
+.nav ul > li > a:hover { background-color:#333; }
+
+.post h3 > a { font-size:36px; line-height:34px; text-decoration:none; color:#000; font-family:'Sanchez', serif; text-transform:uppercase; }
+.post:hover h3 > a { text-decoration:underline; }
+
+.aside aside > ul a,
+.post a { text-decoration:none; }
+.aside aside > ul:hover a,
+.post:hover a { text-decoration:underline; }
+
+.bubble { position:relative; background-color:#000; color:#fff; padding:3px 10px; display:inline-block; text-decoration:none; border-radius:5px; margin-left:20px; box-shadow:2px 2px 2px #fff; }
+.bubble span { background:url(images/bubble-point.png) no-repeat 0 0; position:absolute; top:7px; left:-10px; width:14px; height:14px; }
+
+div {  border:0px dotted #aaa; }
+.photo { width:100%; display:block; }
+
+.row { float:left; border-bottom:5px solid #000; width:45%; margin:0 20px 0 0; padding:20px 0; }
+.row:nth-child(even) { float:right; }
+.row ul > li { list-style-type:square; }
+.row ol > li { list-style-type:decimal-leading-zero; }
+.row ol { margin:0 0 10px 0; }
+.row .cats > a { white-space:nowrap; font-size:12px; }
+
+.next-prev a { display:block; color:#fff; padding:10px; margin:20px 0; background-color:#000; font-size:20px;  text-align:center; border-radius: 20px; text-decoration:none; }
+.next-prev a:hover { background-color:#333; }
+
+.bottom { background:url(images/triangle-up.png) repeat-x 0 0; width:100%; height:7px; position:fixed; bottom:0; left:0; }
+
+.footer { border-top:10px solid #000; margin-top:30px; }
+
+
+
+
+

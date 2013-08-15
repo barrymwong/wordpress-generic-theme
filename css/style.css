@@ -1,0 +1,19 @@
+/*   
+Theme Name: Theme Bleh!
+Theme URI: http://barrymwong.com/aau/2012/fall/web-3
+Description: Description for Bleh!
+Author: Barry Wong
+Author URI: http://barrymwong.com
+*/
+
+ul, li { list-style-type:none; }
+.nav ul li { float:left; display:inline-block; }
+
+div.container_12 { background-color:orange; }
+div {  border:0px dotted #aaa; }
+.photo { width:100%; display:block; }
+
+.on { background-color:red; }
+.off { background-color:green;}
+
+
